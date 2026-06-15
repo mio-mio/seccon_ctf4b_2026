@@ -3,6 +3,8 @@
 These are my quick notes for the challenges I solved during the event.  
 The writeups are intentionally short and focus on the key idea and solver used to get each flag.
 
+Note: I used AI assistance to organize notes, review solver scripts, and polish explanations. The challenge analysis and final solves were based on my own hands-on work during the CTF.
+
 ## baby-rev / reversing
 
 ### KeyIdea

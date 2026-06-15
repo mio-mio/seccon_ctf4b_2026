@@ -89,7 +89,7 @@ Some RSA parameters were given as negative numbers.
 Since negative numbers are not prime numbers, I needed to handle the signs correctly before solving it as an RSA challenge.
 
 ### Solver
-Solve.py
+twins_solve.py
 
 ### Flag
 ctf4b{of_cours3_n3g4tiv3_numb3rs_4r3_not_prim3_numb3rs}
@@ -156,7 +156,7 @@ The challenge message gave a clear hint:
 So I built a ROP chain to call read_file("/flag.txt").
 
 ### Solver
-Exploit.py
+rop4b_exploit.py
 
 ### Flag
  ctf4b{3Xp10it_ROP!}
@@ -193,7 +193,7 @@ The key bug was an arbitrary 8-byte write using a negative index in scores[index
 By using scores[negative_index], I could overwrite a GOT entry and redirect the function call.
 
 ### Solver
-exploit.py
+score_exploit.py
 
 ### Flag
 ctf4b{c4n4Ry_g0T_0v3rwr1t3!!}
